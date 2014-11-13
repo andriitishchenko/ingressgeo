@@ -10,6 +10,8 @@ use Math::Trig;
 # use strict;
 # use warnings;
 use JSON;
+no warnings 'experimental::smartmatch';
+
 # use Data::Dumper;
 binmode(STDOUT,':utf8');
 
