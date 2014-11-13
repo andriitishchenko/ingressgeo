@@ -17,15 +17,45 @@ binmode(STDOUT,':utf8');
 
 sub createGPX(@);
 
-system("clear");
+# system("clear");
 ############################
 #50.453426, 30.478263  - off
 
 # DEFAULTS
 $myLocationLAT = 50.453426;
 $myLocationLONG = 30.478263;
+# $myLocationLAT = 50.454069;
+# $myLocationLONG = 30.474492;
+
+# $myLocationLAT = 50.452441;
+# $myLocationLONG = 30.479698;
+
 $allowRadius = 500; #meters
 ############################
+
+$radiusEarthKilometres=6372797.560856;
+$distanceMetres = 40;
+# $angle = 45;
+
+#     $initialBearingRadians = deg2rad($angle);
+#     $startLatRad = deg2rad($myLocationLAT);
+#     $startLonRad = deg2rad($myLocationLONG);
+#     $distRatio = $distanceMetres / $radiusEarthKilometres;
+#     $distRatioSine = sin($distRatio);
+#     $distRatioCosine = cos($distRatio);
+#     $startLatCos = cos($startLatRad);
+#     $startLatSin = sin($startLatRad);
+
+#     $endLatRads = asin(($startLatSin * $distRatioCosine) + ($startLatCos * $distRatioSine * cos($initialBearingRadians)));
+
+#     $endLonRads = $startLonRad + atan2(
+#             sin($initialBearingRadians) * $distRatioSine * $startLatCos,
+#             $distRatioCosine - $startLatSin * sin($endLatRads));
+
+# printf "%f,%f\n",rad2deg($endLatRads),rad2deg($endLonRads);
+
+# die "terminate";
+print "############################################\n";
 
 my $key = undef;
 
@@ -65,8 +95,7 @@ foreach my $arg (@ARGV) {
 
 unlink glob "./gpx/*.*";
 
-$__static_rad = pi/180 ;
-$__static_radius = 0.00046; #~45meters !!!
+
 
 $json = JSON->new->allow_nonref;
 my $file = 'out.txt';
@@ -79,9 +108,9 @@ while( my $line = <$info>)  {
     $title = $json_item->{"title"};
     $title =~s/[^\wа-я\s]+/_/ig;
 	
-my $a = sin(($lat - $myLocationLAT)*$__static_rad*0.5) ** 2;
-my $b = sin(($long - $myLocationLONG)*$__static_rad*0.5) ** 2;
-my $h = $a + cos($lat*$__static_rad) * cos($myLocationLAT*$__static_rad) * $b;
+my $a = sin( deg2rad($lat - $myLocationLAT)*0.5) ** 2;
+my $b = sin( deg2rad($long - $myLocationLONG)*0.5) ** 2;
+my $h = $a + cos(deg2rad($lat)) * cos(deg2rad($myLocationLAT)) * $b;
 my $theta = 2 * asin(sqrt($h)) * 6372797.560856; 
 
 if ($theta > $allowRadius) {
@@ -93,13 +122,28 @@ if ($theta > $allowRadius) {
 
     for (my $i = 0; $i<8 ;$i++) {
     	#$alfa = 45*$i;
-    	$rand=45*$i;# $alfa+int(rand(45));
+    	$angle=45*$i;# $alfa+int(rand(45));
     	# $nfname= $title."-".$rand."_".$i;
-      $nfname= $title."-".$rand;
-		  $radians  = deg2rad($rand);
-	    $bx = $lat + $__static_radius*cos($radians);
-	 	  $by = $long + $__static_radius*sin($radians);
-      createGPX($nfname,$bx,$by);
+      $nfname= $title."-".$angle;
+
+    $initialBearingRadians = deg2rad($angle);
+    $startLatRad = deg2rad($lat);
+    $startLonRad = deg2rad($long);
+    $distRatio = $distanceMetres / $radiusEarthKilometres;
+    $distRatioSine = sin($distRatio);
+    $distRatioCosine = cos($distRatio);
+    $startLatCos = cos($startLatRad);
+    $startLatSin = sin($startLatRad);
+
+    $endLatRads = asin(($startLatSin * $distRatioCosine) + ($startLatCos * $distRatioSine * cos($initialBearingRadians)));
+
+    $endLonRads = $startLonRad + atan2(
+            sin($initialBearingRadians) * $distRatioSine * $startLatCos,
+            $distRatioCosine - $startLatSin * sin($endLatRads));
+
+      # printf "%f,%f\n    %d %f,%f\n",$lat,$long ,$angle, rad2deg($endLatRads),rad2deg($endLonRads);
+
+      createGPX($nfname,rad2deg($endLatRads),rad2deg($endLonRads));
     }
 
  	# print $lat.",".$long."  ".$bx.",".$by."\n";
@@ -111,9 +155,9 @@ close $info;
 
 sub createGPX(@)
 {
-  $filename = $_[0];
-  $lat = $_[1];
-  $lon = $_[2];
+  my $filename = $_[0];
+  my $lat = $_[1];
+  my $lon = $_[2];
   my $heredoc =<<"END_HERE_1";
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <gpx version="1.1" creator="Xcode">

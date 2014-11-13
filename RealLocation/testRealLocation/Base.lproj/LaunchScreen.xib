@@ -17,7 +17,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ingress_logo_pirate_512px.png" translatesAutoresizingMaskIntoConstraints="NO" id="BhC-a5-ZHk">
-                    <rect key="frame" x="111" y="82" width="280" height="280"/>
+                    <rect key="frame" x="100" y="82" width="280" height="280"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="280" id="VJ5-aw-dAc"/>
                         <constraint firstAttribute="width" constant="280" id="oxH-oi-f1S"/>
@@ -26,7 +26,7 @@
             </subviews>
             <color key="backgroundColor" white="0.20921656468531472" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerX" secondItem="BhC-a5-ZHk" secondAttribute="centerX" constant="-11" id="8EJ-OA-sjK"/>
+                <constraint firstAttribute="centerX" secondItem="BhC-a5-ZHk" secondAttribute="centerX" id="8EJ-OA-sjK"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>

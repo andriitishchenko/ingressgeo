@@ -15,42 +15,6 @@
 		4A1A57921A0CC111002E875C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1A57911A0CC111002E875C /* Images.xcassets */; };
 		4A1A57951A0CC111002E875C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1A57931A0CC111002E875C /* LaunchScreen.xib */; };
 		4A1A57A11A0CC111002E875C /* testRealLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A57A01A0CC111002E875C /* testRealLocationTests.m */; };
-		4AAE06BF1A14F309003BA4D6 /* Stadium Start-0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE069B1A14F309003BA4D6 /* Stadium Start-0.gpx */; };
-		4AAE06C01A14F309003BA4D6 /* Stadium Start-135.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE069C1A14F309003BA4D6 /* Stadium Start-135.gpx */; };
-		4AAE06C11A14F309003BA4D6 /* Stadium Start-180.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE069D1A14F309003BA4D6 /* Stadium Start-180.gpx */; };
-		4AAE06C21A14F309003BA4D6 /* Stadium Start-225.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE069E1A14F309003BA4D6 /* Stadium Start-225.gpx */; };
-		4AAE06C31A14F309003BA4D6 /* Stadium Start-270.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE069F1A14F309003BA4D6 /* Stadium Start-270.gpx */; };
-		4AAE06C41A14F309003BA4D6 /* Stadium Start-315.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A01A14F309003BA4D6 /* Stadium Start-315.gpx */; };
-		4AAE06C51A14F309003BA4D6 /* Stadium Start-45.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A11A14F309003BA4D6 /* Stadium Start-45.gpx */; };
-		4AAE06C61A14F309003BA4D6 /* Stadium Start-90.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A21A14F309003BA4D6 /* Stadium Start-90.gpx */; };
-		4AAE06C71A14F309003BA4D6 /* Stadium Start.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A31A14F309003BA4D6 /* Stadium Start.gpx */; };
-		4AAE06C81A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A41A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-0.gpx */; };
-		4AAE06C91A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-135.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A51A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-135.gpx */; };
-		4AAE06CA1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-180.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A61A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-180.gpx */; };
-		4AAE06CB1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-225.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A71A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-225.gpx */; };
-		4AAE06CC1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-270.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A81A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-270.gpx */; };
-		4AAE06CD1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-315.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06A91A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-315.gpx */; };
-		4AAE06CE1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-45.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06AA1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-45.gpx */; };
-		4AAE06CF1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-90.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06AB1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-90.gpx */; };
-		4AAE06D01A14F309003BA4D6 /* Маршала Рыбалко Павла Улица.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06AC1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица.gpx */; };
-		4AAE06D11A14F309003BA4D6 /* Фонтан-0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06AD1A14F309003BA4D6 /* Фонтан-0.gpx */; };
-		4AAE06D21A14F309003BA4D6 /* Фонтан-135.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06AE1A14F309003BA4D6 /* Фонтан-135.gpx */; };
-		4AAE06D31A14F309003BA4D6 /* Фонтан-180.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06AF1A14F309003BA4D6 /* Фонтан-180.gpx */; };
-		4AAE06D41A14F309003BA4D6 /* Фонтан-225.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B01A14F309003BA4D6 /* Фонтан-225.gpx */; };
-		4AAE06D51A14F309003BA4D6 /* Фонтан-270.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B11A14F309003BA4D6 /* Фонтан-270.gpx */; };
-		4AAE06D61A14F309003BA4D6 /* Фонтан-315.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B21A14F309003BA4D6 /* Фонтан-315.gpx */; };
-		4AAE06D71A14F309003BA4D6 /* Фонтан-45.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B31A14F309003BA4D6 /* Фонтан-45.gpx */; };
-		4AAE06D81A14F309003BA4D6 /* Фонтан-90.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B41A14F309003BA4D6 /* Фонтан-90.gpx */; };
-		4AAE06D91A14F309003BA4D6 /* Фонтан.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B51A14F309003BA4D6 /* Фонтан.gpx */; };
-		4AAE06DA1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B61A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-0.gpx */; };
-		4AAE06DB1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-135.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B71A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-135.gpx */; };
-		4AAE06DC1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-180.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B81A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-180.gpx */; };
-		4AAE06DD1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-225.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06B91A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-225.gpx */; };
-		4AAE06DE1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-270.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06BA1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-270.gpx */; };
-		4AAE06DF1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-315.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06BB1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-315.gpx */; };
-		4AAE06E01A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-45.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06BC1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-45.gpx */; };
-		4AAE06E11A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-90.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06BD1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-90.gpx */; };
-		4AAE06E21A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE06BE1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері.gpx */; };
 		4AAE06E41A14F38B003BA4D6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAE06E31A14F38B003BA4D6 /* AVFoundation.framework */; };
 		4AAE06E61A14F394003BA4D6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAE06E51A14F394003BA4D6 /* CoreData.framework */; };
 		4AAE06E81A14F39B003BA4D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAE06E71A14F39B003BA4D6 /* CoreLocation.framework */; };
@@ -86,6 +50,26 @@
 		4AAE08491A152E99003BA4D6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08371A152E99003BA4D6 /* Icon@2x.png */; };
 		4AAE084A1A152E99003BA4D6 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08381A152E99003BA4D6 /* iTunesArtwork@2x.png */; };
 		4AAE084C1A152F42003BA4D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE084B1A152F42003BA4D6 /* InfoPlist.strings */; };
+		4AAE0B181A155D8F003BA4D6 /* Фонтан-0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B0F1A155D8F003BA4D6 /* Фонтан-0.gpx */; };
+		4AAE0B191A155D8F003BA4D6 /* Фонтан-135.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B101A155D8F003BA4D6 /* Фонтан-135.gpx */; };
+		4AAE0B1A1A155D8F003BA4D6 /* Фонтан-180.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B111A155D8F003BA4D6 /* Фонтан-180.gpx */; };
+		4AAE0B1B1A155D8F003BA4D6 /* Фонтан-225.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B121A155D8F003BA4D6 /* Фонтан-225.gpx */; };
+		4AAE0B1C1A155D8F003BA4D6 /* Фонтан-270.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B131A155D8F003BA4D6 /* Фонтан-270.gpx */; };
+		4AAE0B1D1A155D8F003BA4D6 /* Фонтан-315.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B141A155D8F003BA4D6 /* Фонтан-315.gpx */; };
+		4AAE0B1E1A155D8F003BA4D6 /* Фонтан-45.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B151A155D8F003BA4D6 /* Фонтан-45.gpx */; };
+		4AAE0B1F1A155D8F003BA4D6 /* Фонтан-90.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B161A155D8F003BA4D6 /* Фонтан-90.gpx */; };
+		4AAE0B201A155D8F003BA4D6 /* Фонтан.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B171A155D8F003BA4D6 /* Фонтан.gpx */; };
+		4AAE0B221A155F78003BA4D6 /* Dolphin Tower-0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B211A155F78003BA4D6 /* Dolphin Tower-0.gpx */; };
+		4AAE0B241A15607A003BA4D6 /* Памятник ботинкам страхового-0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B231A15607A003BA4D6 /* Памятник ботинкам страхового-0.gpx */; };
+		4AAE0B2E1A156521003BA4D6 /* Флюгер С Котом-0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B251A156521003BA4D6 /* Флюгер С Котом-0.gpx */; };
+		4AAE0B2F1A156521003BA4D6 /* Флюгер С Котом-45.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B261A156521003BA4D6 /* Флюгер С Котом-45.gpx */; };
+		4AAE0B301A156521003BA4D6 /* Флюгер С Котом-90.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B271A156521003BA4D6 /* Флюгер С Котом-90.gpx */; };
+		4AAE0B311A156521003BA4D6 /* Флюгер С Котом-135.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B281A156521003BA4D6 /* Флюгер С Котом-135.gpx */; };
+		4AAE0B321A156521003BA4D6 /* Флюгер С Котом-180.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B291A156521003BA4D6 /* Флюгер С Котом-180.gpx */; };
+		4AAE0B331A156521003BA4D6 /* Флюгер С Котом-225.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B2A1A156521003BA4D6 /* Флюгер С Котом-225.gpx */; };
+		4AAE0B341A156521003BA4D6 /* Флюгер С Котом-270.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B2B1A156521003BA4D6 /* Флюгер С Котом-270.gpx */; };
+		4AAE0B351A156521003BA4D6 /* Флюгер С Котом-315.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B2C1A156521003BA4D6 /* Флюгер С Котом-315.gpx */; };
+		4AAE0B361A156521003BA4D6 /* Флюгер С Котом.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE0B2D1A156521003BA4D6 /* Флюгер С Котом.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,42 +97,6 @@
 		4A1A579A1A0CC111002E875C /* testRealLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRealLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1A579F1A0CC111002E875C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A1A57A01A0CC111002E875C /* testRealLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRealLocationTests.m; sourceTree = "<group>"; };
-		4AAE069B1A14F309003BA4D6 /* Stadium Start-0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start-0.gpx"; sourceTree = "<group>"; };
-		4AAE069C1A14F309003BA4D6 /* Stadium Start-135.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start-135.gpx"; sourceTree = "<group>"; };
-		4AAE069D1A14F309003BA4D6 /* Stadium Start-180.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start-180.gpx"; sourceTree = "<group>"; };
-		4AAE069E1A14F309003BA4D6 /* Stadium Start-225.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start-225.gpx"; sourceTree = "<group>"; };
-		4AAE069F1A14F309003BA4D6 /* Stadium Start-270.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start-270.gpx"; sourceTree = "<group>"; };
-		4AAE06A01A14F309003BA4D6 /* Stadium Start-315.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start-315.gpx"; sourceTree = "<group>"; };
-		4AAE06A11A14F309003BA4D6 /* Stadium Start-45.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start-45.gpx"; sourceTree = "<group>"; };
-		4AAE06A21A14F309003BA4D6 /* Stadium Start-90.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start-90.gpx"; sourceTree = "<group>"; };
-		4AAE06A31A14F309003BA4D6 /* Stadium Start.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Stadium Start.gpx"; sourceTree = "<group>"; };
-		4AAE06A41A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица-0.gpx"; sourceTree = "<group>"; };
-		4AAE06A51A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-135.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица-135.gpx"; sourceTree = "<group>"; };
-		4AAE06A61A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-180.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица-180.gpx"; sourceTree = "<group>"; };
-		4AAE06A71A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-225.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица-225.gpx"; sourceTree = "<group>"; };
-		4AAE06A81A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-270.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица-270.gpx"; sourceTree = "<group>"; };
-		4AAE06A91A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-315.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица-315.gpx"; sourceTree = "<group>"; };
-		4AAE06AA1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-45.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица-45.gpx"; sourceTree = "<group>"; };
-		4AAE06AB1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-90.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица-90.gpx"; sourceTree = "<group>"; };
-		4AAE06AC1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Маршала Рыбалко Павла Улица.gpx"; sourceTree = "<group>"; };
-		4AAE06AD1A14F309003BA4D6 /* Фонтан-0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-0.gpx"; sourceTree = "<group>"; };
-		4AAE06AE1A14F309003BA4D6 /* Фонтан-135.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-135.gpx"; sourceTree = "<group>"; };
-		4AAE06AF1A14F309003BA4D6 /* Фонтан-180.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-180.gpx"; sourceTree = "<group>"; };
-		4AAE06B01A14F309003BA4D6 /* Фонтан-225.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-225.gpx"; sourceTree = "<group>"; };
-		4AAE06B11A14F309003BA4D6 /* Фонтан-270.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-270.gpx"; sourceTree = "<group>"; };
-		4AAE06B21A14F309003BA4D6 /* Фонтан-315.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-315.gpx"; sourceTree = "<group>"; };
-		4AAE06B31A14F309003BA4D6 /* Фонтан-45.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-45.gpx"; sourceTree = "<group>"; };
-		4AAE06B41A14F309003BA4D6 /* Фонтан-90.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-90.gpx"; sourceTree = "<group>"; };
-		4AAE06B51A14F309003BA4D6 /* Фонтан.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан.gpx"; sourceTree = "<group>"; };
-		4AAE06B61A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері-0.gpx"; sourceTree = "<group>"; };
-		4AAE06B71A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-135.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері-135.gpx"; sourceTree = "<group>"; };
-		4AAE06B81A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-180.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері-180.gpx"; sourceTree = "<group>"; };
-		4AAE06B91A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-225.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері-225.gpx"; sourceTree = "<group>"; };
-		4AAE06BA1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-270.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері-270.gpx"; sourceTree = "<group>"; };
-		4AAE06BB1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-315.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері-315.gpx"; sourceTree = "<group>"; };
-		4AAE06BC1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-45.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері-45.gpx"; sourceTree = "<group>"; };
-		4AAE06BD1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-90.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері-90.gpx"; sourceTree = "<group>"; };
-		4AAE06BE1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Храм Почаївської Ікони Божої Матері.gpx"; sourceTree = "<group>"; };
 		4AAE06E31A14F38B003BA4D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4AAE06E51A14F394003BA4D6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4AAE06E71A14F39B003BA4D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -183,6 +131,26 @@
 		4AAE08371A152E99003BA4D6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		4AAE08381A152E99003BA4D6 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		4AAE084B1A152F42003BA4D6 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		4AAE0B0F1A155D8F003BA4D6 /* Фонтан-0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-0.gpx"; sourceTree = "<group>"; };
+		4AAE0B101A155D8F003BA4D6 /* Фонтан-135.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-135.gpx"; sourceTree = "<group>"; };
+		4AAE0B111A155D8F003BA4D6 /* Фонтан-180.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-180.gpx"; sourceTree = "<group>"; };
+		4AAE0B121A155D8F003BA4D6 /* Фонтан-225.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-225.gpx"; sourceTree = "<group>"; };
+		4AAE0B131A155D8F003BA4D6 /* Фонтан-270.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-270.gpx"; sourceTree = "<group>"; };
+		4AAE0B141A155D8F003BA4D6 /* Фонтан-315.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-315.gpx"; sourceTree = "<group>"; };
+		4AAE0B151A155D8F003BA4D6 /* Фонтан-45.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-45.gpx"; sourceTree = "<group>"; };
+		4AAE0B161A155D8F003BA4D6 /* Фонтан-90.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан-90.gpx"; sourceTree = "<group>"; };
+		4AAE0B171A155D8F003BA4D6 /* Фонтан.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Фонтан.gpx"; sourceTree = "<group>"; };
+		4AAE0B211A155F78003BA4D6 /* Dolphin Tower-0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Dolphin Tower-0.gpx"; path = "../gpxScript/gpx/Dolphin Tower-0.gpx"; sourceTree = "<group>"; };
+		4AAE0B231A15607A003BA4D6 /* Памятник ботинкам страхового-0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Памятник ботинкам страхового-0.gpx"; path = "../gpxScript/gpx/Памятник ботинкам страхового-0.gpx"; sourceTree = "<group>"; };
+		4AAE0B251A156521003BA4D6 /* Флюгер С Котом-0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом-0.gpx"; path = "../gpxScript/gpx/Флюгер С Котом-0.gpx"; sourceTree = "<group>"; };
+		4AAE0B261A156521003BA4D6 /* Флюгер С Котом-45.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом-45.gpx"; path = "../gpxScript/gpx/Флюгер С Котом-45.gpx"; sourceTree = "<group>"; };
+		4AAE0B271A156521003BA4D6 /* Флюгер С Котом-90.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом-90.gpx"; path = "../gpxScript/gpx/Флюгер С Котом-90.gpx"; sourceTree = "<group>"; };
+		4AAE0B281A156521003BA4D6 /* Флюгер С Котом-135.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом-135.gpx"; path = "../gpxScript/gpx/Флюгер С Котом-135.gpx"; sourceTree = "<group>"; };
+		4AAE0B291A156521003BA4D6 /* Флюгер С Котом-180.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом-180.gpx"; path = "../gpxScript/gpx/Флюгер С Котом-180.gpx"; sourceTree = "<group>"; };
+		4AAE0B2A1A156521003BA4D6 /* Флюгер С Котом-225.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом-225.gpx"; path = "../gpxScript/gpx/Флюгер С Котом-225.gpx"; sourceTree = "<group>"; };
+		4AAE0B2B1A156521003BA4D6 /* Флюгер С Котом-270.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом-270.gpx"; path = "../gpxScript/gpx/Флюгер С Котом-270.gpx"; sourceTree = "<group>"; };
+		4AAE0B2C1A156521003BA4D6 /* Флюгер С Котом-315.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом-315.gpx"; path = "../gpxScript/gpx/Флюгер С Котом-315.gpx"; sourceTree = "<group>"; };
+		4AAE0B2D1A156521003BA4D6 /* Флюгер С Котом.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Флюгер С Котом.gpx"; path = "../gpxScript/gpx/Флюгер С Котом.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,11 +187,21 @@
 		4A1A57751A0CC111002E875C = {
 			isa = PBXGroup;
 			children = (
-				4AAE081E1A14F457003BA4D6 /* Frameworks */,
-				4AAE069A1A14F309003BA4D6 /* gpx */,
+				4AAE0B251A156521003BA4D6 /* Флюгер С Котом-0.gpx */,
+				4AAE0B261A156521003BA4D6 /* Флюгер С Котом-45.gpx */,
+				4AAE0B271A156521003BA4D6 /* Флюгер С Котом-90.gpx */,
+				4AAE0B281A156521003BA4D6 /* Флюгер С Котом-135.gpx */,
+				4AAE0B291A156521003BA4D6 /* Флюгер С Котом-180.gpx */,
+				4AAE0B2A1A156521003BA4D6 /* Флюгер С Котом-225.gpx */,
+				4AAE0B2B1A156521003BA4D6 /* Флюгер С Котом-270.gpx */,
+				4AAE0B2C1A156521003BA4D6 /* Флюгер С Котом-315.gpx */,
+				4AAE0B2D1A156521003BA4D6 /* Флюгер С Котом.gpx */,
+				4AAE0B231A15607A003BA4D6 /* Памятник ботинкам страхового-0.gpx */,
+				4AAE0B211A155F78003BA4D6 /* Dolphin Tower-0.gpx */,
 				4A1A57801A0CC111002E875C /* testRealLocation */,
 				4A1A579D1A0CC111002E875C /* testRealLocationTests */,
 				4A1A577F1A0CC111002E875C /* Products */,
+				4AAE081E1A14F457003BA4D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,6 +217,7 @@
 		4A1A57801A0CC111002E875C /* testRealLocation */ = {
 			isa = PBXGroup;
 			children = (
+				4AAE0B0E1A155D8F003BA4D6 /* gpx */,
 				4AAE08241A1523CA003BA4D6 /* ingress_logo_pirate_512px.png */,
 				4A1A57851A0CC111002E875C /* AppDelegate.h */,
 				4A1A57861A0CC111002E875C /* AppDelegate.m */,
@@ -279,50 +258,6 @@
 				4A1A579F1A0CC111002E875C /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4AAE069A1A14F309003BA4D6 /* gpx */ = {
-			isa = PBXGroup;
-			children = (
-				4AAE069B1A14F309003BA4D6 /* Stadium Start-0.gpx */,
-				4AAE069C1A14F309003BA4D6 /* Stadium Start-135.gpx */,
-				4AAE069D1A14F309003BA4D6 /* Stadium Start-180.gpx */,
-				4AAE069E1A14F309003BA4D6 /* Stadium Start-225.gpx */,
-				4AAE069F1A14F309003BA4D6 /* Stadium Start-270.gpx */,
-				4AAE06A01A14F309003BA4D6 /* Stadium Start-315.gpx */,
-				4AAE06A11A14F309003BA4D6 /* Stadium Start-45.gpx */,
-				4AAE06A21A14F309003BA4D6 /* Stadium Start-90.gpx */,
-				4AAE06A31A14F309003BA4D6 /* Stadium Start.gpx */,
-				4AAE06A41A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-0.gpx */,
-				4AAE06A51A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-135.gpx */,
-				4AAE06A61A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-180.gpx */,
-				4AAE06A71A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-225.gpx */,
-				4AAE06A81A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-270.gpx */,
-				4AAE06A91A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-315.gpx */,
-				4AAE06AA1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-45.gpx */,
-				4AAE06AB1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-90.gpx */,
-				4AAE06AC1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица.gpx */,
-				4AAE06AD1A14F309003BA4D6 /* Фонтан-0.gpx */,
-				4AAE06AE1A14F309003BA4D6 /* Фонтан-135.gpx */,
-				4AAE06AF1A14F309003BA4D6 /* Фонтан-180.gpx */,
-				4AAE06B01A14F309003BA4D6 /* Фонтан-225.gpx */,
-				4AAE06B11A14F309003BA4D6 /* Фонтан-270.gpx */,
-				4AAE06B21A14F309003BA4D6 /* Фонтан-315.gpx */,
-				4AAE06B31A14F309003BA4D6 /* Фонтан-45.gpx */,
-				4AAE06B41A14F309003BA4D6 /* Фонтан-90.gpx */,
-				4AAE06B51A14F309003BA4D6 /* Фонтан.gpx */,
-				4AAE06B61A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-0.gpx */,
-				4AAE06B71A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-135.gpx */,
-				4AAE06B81A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-180.gpx */,
-				4AAE06B91A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-225.gpx */,
-				4AAE06BA1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-270.gpx */,
-				4AAE06BB1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-315.gpx */,
-				4AAE06BC1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-45.gpx */,
-				4AAE06BD1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-90.gpx */,
-				4AAE06BE1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері.gpx */,
-			);
-			name = gpx;
-			path = ../gpxScript/gpx;
 			sourceTree = "<group>";
 		};
 		4AAE081E1A14F457003BA4D6 /* Frameworks */ = {
@@ -369,6 +304,23 @@
 				4AAE08381A152E99003BA4D6 /* iTunesArtwork@2x.png */,
 			);
 			path = "App Icon [Rounded]";
+			sourceTree = "<group>";
+		};
+		4AAE0B0E1A155D8F003BA4D6 /* gpx */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE0B0F1A155D8F003BA4D6 /* Фонтан-0.gpx */,
+				4AAE0B101A155D8F003BA4D6 /* Фонтан-135.gpx */,
+				4AAE0B111A155D8F003BA4D6 /* Фонтан-180.gpx */,
+				4AAE0B121A155D8F003BA4D6 /* Фонтан-225.gpx */,
+				4AAE0B131A155D8F003BA4D6 /* Фонтан-270.gpx */,
+				4AAE0B141A155D8F003BA4D6 /* Фонтан-315.gpx */,
+				4AAE0B151A155D8F003BA4D6 /* Фонтан-45.gpx */,
+				4AAE0B161A155D8F003BA4D6 /* Фонтан-90.gpx */,
+				4AAE0B171A155D8F003BA4D6 /* Фонтан.gpx */,
+			);
+			name = gpx;
+			path = ../../gpxScript/gpx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,64 +439,48 @@
 				4AAE08441A152E99003BA4D6 /* Icon-Small-50@2x.png in Resources */,
 				4AAE08211A14F85D003BA4D6 /* GoogleMaps.framework in Resources */,
 				4A1A57901A0CC111002E875C /* Main.storyboard in Resources */,
-				4AAE06D51A14F309003BA4D6 /* Фонтан-270.gpx in Resources */,
 				4AAE083C1A152E99003BA4D6 /* Icon-72.png in Resources */,
-				4AAE06C11A14F309003BA4D6 /* Stadium Start-180.gpx in Resources */,
-				4AAE06C01A14F309003BA4D6 /* Stadium Start-135.gpx in Resources */,
-				4AAE06C71A14F309003BA4D6 /* Stadium Start.gpx in Resources */,
 				4AAE083B1A152E99003BA4D6 /* Icon-60@3x.png in Resources */,
-				4AAE06D11A14F309003BA4D6 /* Фонтан-0.gpx in Resources */,
-				4AAE06DF1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-315.gpx in Resources */,
 				4A1A57951A0CC111002E875C /* LaunchScreen.xib in Resources */,
-				4AAE06DA1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-0.gpx in Resources */,
 				4AAE08461A152E99003BA4D6 /* Icon-Small@2x.png in Resources */,
+				4AAE0B1A1A155D8F003BA4D6 /* Фонтан-180.gpx in Resources */,
 				4AAE08401A152E99003BA4D6 /* Icon-Small-40.png in Resources */,
-				4AAE06C51A14F309003BA4D6 /* Stadium Start-45.gpx in Resources */,
-				4AAE06CD1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-315.gpx in Resources */,
-				4AAE06DD1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-225.gpx in Resources */,
-				4AAE06CA1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-180.gpx in Resources */,
-				4AAE06D71A14F309003BA4D6 /* Фонтан-45.gpx in Resources */,
 				4AAE083E1A152E99003BA4D6 /* Icon-76.png in Resources */,
 				4AAE084C1A152F42003BA4D6 /* InfoPlist.strings in Resources */,
+				4AAE0B191A155D8F003BA4D6 /* Фонтан-135.gpx in Resources */,
+				4AAE0B1D1A155D8F003BA4D6 /* Фонтан-315.gpx in Resources */,
 				4AAE08491A152E99003BA4D6 /* Icon@2x.png in Resources */,
+				4AAE0B1E1A155D8F003BA4D6 /* Фонтан-45.gpx in Resources */,
 				4AAE08471A152E99003BA4D6 /* Icon-Small@3x.png in Resources */,
 				4AAE083F1A152E99003BA4D6 /* Icon-76@2x.png in Resources */,
+				4AAE0B1F1A155D8F003BA4D6 /* Фонтан-90.gpx in Resources */,
+				4AAE0B241A15607A003BA4D6 /* Памятник ботинкам страхового-0.gpx in Resources */,
 				4AAE083A1A152E99003BA4D6 /* Icon-60@2x.png in Resources */,
-				4AAE06C21A14F309003BA4D6 /* Stadium Start-225.gpx in Resources */,
+				4AAE0B2F1A156521003BA4D6 /* Флюгер С Котом-45.gpx in Resources */,
+				4AAE0B2E1A156521003BA4D6 /* Флюгер С Котом-0.gpx in Resources */,
 				4AAE08451A152E99003BA4D6 /* Icon-Small.png in Resources */,
-				4AAE06C31A14F309003BA4D6 /* Stadium Start-270.gpx in Resources */,
-				4AAE06C91A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-135.gpx in Resources */,
-				4AAE06CF1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-90.gpx in Resources */,
-				4AAE06C61A14F309003BA4D6 /* Stadium Start-90.gpx in Resources */,
 				4AAE084A1A152E99003BA4D6 /* iTunesArtwork@2x.png in Resources */,
-				4AAE06D21A14F309003BA4D6 /* Фонтан-135.gpx in Resources */,
-				4AAE06DC1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-180.gpx in Resources */,
+				4AAE0B181A155D8F003BA4D6 /* Фонтан-0.gpx in Resources */,
+				4AAE0B331A156521003BA4D6 /* Флюгер С Котом-225.gpx in Resources */,
+				4AAE0B321A156521003BA4D6 /* Флюгер С Котом-180.gpx in Resources */,
+				4AAE0B351A156521003BA4D6 /* Флюгер С Котом-315.gpx in Resources */,
 				4AAE08231A14F95B003BA4D6 /* GoogleMaps.bundle in Resources */,
 				4AAE083D1A152E99003BA4D6 /* Icon-72@2x.png in Resources */,
-				4AAE06D41A14F309003BA4D6 /* Фонтан-225.gpx in Resources */,
 				4AAE08431A152E99003BA4D6 /* Icon-Small-50.png in Resources */,
-				4AAE06D61A14F309003BA4D6 /* Фонтан-315.gpx in Resources */,
-				4AAE06CC1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-270.gpx in Resources */,
-				4AAE06D81A14F309003BA4D6 /* Фонтан-90.gpx in Resources */,
+				4AAE0B221A155F78003BA4D6 /* Dolphin Tower-0.gpx in Resources */,
+				4AAE0B301A156521003BA4D6 /* Флюгер С Котом-90.gpx in Resources */,
 				4AAE08421A152E99003BA4D6 /* Icon-Small-40@3x.png in Resources */,
-				4AAE06DB1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-135.gpx in Resources */,
-				4AAE06E01A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-45.gpx in Resources */,
-				4AAE06C41A14F309003BA4D6 /* Stadium Start-315.gpx in Resources */,
-				4AAE06CB1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-225.gpx in Resources */,
-				4AAE06BF1A14F309003BA4D6 /* Stadium Start-0.gpx in Resources */,
-				4AAE06C81A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-0.gpx in Resources */,
+				4AAE0B1B1A155D8F003BA4D6 /* Фонтан-225.gpx in Resources */,
 				4AAE08411A152E99003BA4D6 /* Icon-Small-40@2x.png in Resources */,
+				4AAE0B1C1A155D8F003BA4D6 /* Фонтан-270.gpx in Resources */,
 				4A1A57921A0CC111002E875C /* Images.xcassets in Resources */,
+				4AAE0B311A156521003BA4D6 /* Флюгер С Котом-135.gpx in Resources */,
 				4AAE08251A1523CA003BA4D6 /* ingress_logo_pirate_512px.png in Resources */,
-				4AAE06D01A14F309003BA4D6 /* Маршала Рыбалко Павла Улица.gpx in Resources */,
+				4AAE0B341A156521003BA4D6 /* Флюгер С Котом-270.gpx in Resources */,
+				4AAE0B201A155D8F003BA4D6 /* Фонтан.gpx in Resources */,
+				4AAE0B361A156521003BA4D6 /* Флюгер С Котом.gpx in Resources */,
 				4AAE08391A152E99003BA4D6 /* Icon-60.png in Resources */,
-				4AAE06E11A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-90.gpx in Resources */,
-				4AAE06CE1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-45.gpx in Resources */,
-				4AAE06D31A14F309003BA4D6 /* Фонтан-180.gpx in Resources */,
-				4AAE06DE1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-270.gpx in Resources */,
-				4AAE06E21A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері.gpx in Resources */,
 				4AAE08481A152E99003BA4D6 /* Icon.png in Resources */,
-				4AAE06D91A14F309003BA4D6 /* Фонтан.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
