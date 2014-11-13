@@ -16,8 +16,9 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-
-gpx/gpx/*.gpx
+*.gpx
+gpxScript/gpx/
+gpxScript/gpx/*.*
 
 # CocoaPods
 #
