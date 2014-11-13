@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <GoogleMaps/GoogleMaps.h>
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet GMSMapView *viewMap;
 
+@property (strong, nonatomic) CLLocationManager* locationAuthorizationManager;
 @end
 
