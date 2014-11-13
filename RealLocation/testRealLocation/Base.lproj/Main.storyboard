@@ -34,7 +34,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.26000000000000001" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="eca-UA-8ou" secondAttribute="trailing" id="3sv-7w-6H7"/>
                             <constraint firstItem="eca-UA-8ou" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="5g0-wv-A4d"/>

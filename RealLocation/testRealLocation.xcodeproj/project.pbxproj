@@ -66,6 +66,26 @@
 		4AAE08201A14F59D003BA4D6 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAE081F1A14F59D003BA4D6 /* GoogleMaps.framework */; };
 		4AAE08211A14F85D003BA4D6 /* GoogleMaps.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE081F1A14F59D003BA4D6 /* GoogleMaps.framework */; };
 		4AAE08231A14F95B003BA4D6 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08221A14F95B003BA4D6 /* GoogleMaps.bundle */; };
+		4AAE08251A1523CA003BA4D6 /* ingress_logo_pirate_512px.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08241A1523CA003BA4D6 /* ingress_logo_pirate_512px.png */; };
+		4AAE08391A152E99003BA4D6 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08271A152E99003BA4D6 /* Icon-60.png */; };
+		4AAE083A1A152E99003BA4D6 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08281A152E99003BA4D6 /* Icon-60@2x.png */; };
+		4AAE083B1A152E99003BA4D6 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08291A152E99003BA4D6 /* Icon-60@3x.png */; };
+		4AAE083C1A152E99003BA4D6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE082A1A152E99003BA4D6 /* Icon-72.png */; };
+		4AAE083D1A152E99003BA4D6 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE082B1A152E99003BA4D6 /* Icon-72@2x.png */; };
+		4AAE083E1A152E99003BA4D6 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE082C1A152E99003BA4D6 /* Icon-76.png */; };
+		4AAE083F1A152E99003BA4D6 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE082D1A152E99003BA4D6 /* Icon-76@2x.png */; };
+		4AAE08401A152E99003BA4D6 /* Icon-Small-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE082E1A152E99003BA4D6 /* Icon-Small-40.png */; };
+		4AAE08411A152E99003BA4D6 /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE082F1A152E99003BA4D6 /* Icon-Small-40@2x.png */; };
+		4AAE08421A152E99003BA4D6 /* Icon-Small-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08301A152E99003BA4D6 /* Icon-Small-40@3x.png */; };
+		4AAE08431A152E99003BA4D6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08311A152E99003BA4D6 /* Icon-Small-50.png */; };
+		4AAE08441A152E99003BA4D6 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08321A152E99003BA4D6 /* Icon-Small-50@2x.png */; };
+		4AAE08451A152E99003BA4D6 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08331A152E99003BA4D6 /* Icon-Small.png */; };
+		4AAE08461A152E99003BA4D6 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08341A152E99003BA4D6 /* Icon-Small@2x.png */; };
+		4AAE08471A152E99003BA4D6 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08351A152E99003BA4D6 /* Icon-Small@3x.png */; };
+		4AAE08481A152E99003BA4D6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08361A152E99003BA4D6 /* Icon.png */; };
+		4AAE08491A152E99003BA4D6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08371A152E99003BA4D6 /* Icon@2x.png */; };
+		4AAE084A1A152E99003BA4D6 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE08381A152E99003BA4D6 /* iTunesArtwork@2x.png */; };
+		4AAE084C1A152F42003BA4D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE084B1A152F42003BA4D6 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +163,26 @@
 		4AAE06F91A14F403003BA4D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4AAE081F1A14F59D003BA4D6 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		4AAE08221A14F95B003BA4D6 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		4AAE08241A1523CA003BA4D6 /* ingress_logo_pirate_512px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ingress_logo_pirate_512px.png; sourceTree = "<group>"; };
+		4AAE08271A152E99003BA4D6 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		4AAE08281A152E99003BA4D6 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		4AAE08291A152E99003BA4D6 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		4AAE082A1A152E99003BA4D6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		4AAE082B1A152E99003BA4D6 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		4AAE082C1A152E99003BA4D6 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		4AAE082D1A152E99003BA4D6 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		4AAE082E1A152E99003BA4D6 /* Icon-Small-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40.png"; sourceTree = "<group>"; };
+		4AAE082F1A152E99003BA4D6 /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@2x.png"; sourceTree = "<group>"; };
+		4AAE08301A152E99003BA4D6 /* Icon-Small-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@3x.png"; sourceTree = "<group>"; };
+		4AAE08311A152E99003BA4D6 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		4AAE08321A152E99003BA4D6 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		4AAE08331A152E99003BA4D6 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		4AAE08341A152E99003BA4D6 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		4AAE08351A152E99003BA4D6 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		4AAE08361A152E99003BA4D6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4AAE08371A152E99003BA4D6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4AAE08381A152E99003BA4D6 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		4AAE084B1A152F42003BA4D6 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +239,7 @@
 		4A1A57801A0CC111002E875C /* testRealLocation */ = {
 			isa = PBXGroup;
 			children = (
+				4AAE08241A1523CA003BA4D6 /* ingress_logo_pirate_512px.png */,
 				4A1A57851A0CC111002E875C /* AppDelegate.h */,
 				4A1A57861A0CC111002E875C /* AppDelegate.m */,
 				4A1A578B1A0CC111002E875C /* ViewController.h */,
@@ -215,7 +256,9 @@
 		4A1A57811A0CC111002E875C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AAE08261A152E99003BA4D6 /* App Icon [Rounded] */,
 				4A1A57821A0CC111002E875C /* Info.plist */,
+				4AAE084B1A152F42003BA4D6 /* InfoPlist.strings */,
 				4A1A57831A0CC111002E875C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -301,6 +344,31 @@
 				4AAE06E31A14F38B003BA4D6 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AAE08261A152E99003BA4D6 /* App Icon [Rounded] */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE08271A152E99003BA4D6 /* Icon-60.png */,
+				4AAE08281A152E99003BA4D6 /* Icon-60@2x.png */,
+				4AAE08291A152E99003BA4D6 /* Icon-60@3x.png */,
+				4AAE082A1A152E99003BA4D6 /* Icon-72.png */,
+				4AAE082B1A152E99003BA4D6 /* Icon-72@2x.png */,
+				4AAE082C1A152E99003BA4D6 /* Icon-76.png */,
+				4AAE082D1A152E99003BA4D6 /* Icon-76@2x.png */,
+				4AAE082E1A152E99003BA4D6 /* Icon-Small-40.png */,
+				4AAE082F1A152E99003BA4D6 /* Icon-Small-40@2x.png */,
+				4AAE08301A152E99003BA4D6 /* Icon-Small-40@3x.png */,
+				4AAE08311A152E99003BA4D6 /* Icon-Small-50.png */,
+				4AAE08321A152E99003BA4D6 /* Icon-Small-50@2x.png */,
+				4AAE08331A152E99003BA4D6 /* Icon-Small.png */,
+				4AAE08341A152E99003BA4D6 /* Icon-Small@2x.png */,
+				4AAE08351A152E99003BA4D6 /* Icon-Small@3x.png */,
+				4AAE08361A152E99003BA4D6 /* Icon.png */,
+				4AAE08371A152E99003BA4D6 /* Icon@2x.png */,
+				4AAE08381A152E99003BA4D6 /* iTunesArtwork@2x.png */,
+			);
+			path = "App Icon [Rounded]";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,46 +484,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAE08441A152E99003BA4D6 /* Icon-Small-50@2x.png in Resources */,
 				4AAE08211A14F85D003BA4D6 /* GoogleMaps.framework in Resources */,
 				4A1A57901A0CC111002E875C /* Main.storyboard in Resources */,
 				4AAE06D51A14F309003BA4D6 /* Фонтан-270.gpx in Resources */,
+				4AAE083C1A152E99003BA4D6 /* Icon-72.png in Resources */,
 				4AAE06C11A14F309003BA4D6 /* Stadium Start-180.gpx in Resources */,
 				4AAE06C01A14F309003BA4D6 /* Stadium Start-135.gpx in Resources */,
 				4AAE06C71A14F309003BA4D6 /* Stadium Start.gpx in Resources */,
+				4AAE083B1A152E99003BA4D6 /* Icon-60@3x.png in Resources */,
 				4AAE06D11A14F309003BA4D6 /* Фонтан-0.gpx in Resources */,
 				4AAE06DF1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-315.gpx in Resources */,
 				4A1A57951A0CC111002E875C /* LaunchScreen.xib in Resources */,
 				4AAE06DA1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-0.gpx in Resources */,
+				4AAE08461A152E99003BA4D6 /* Icon-Small@2x.png in Resources */,
+				4AAE08401A152E99003BA4D6 /* Icon-Small-40.png in Resources */,
 				4AAE06C51A14F309003BA4D6 /* Stadium Start-45.gpx in Resources */,
 				4AAE06CD1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-315.gpx in Resources */,
 				4AAE06DD1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-225.gpx in Resources */,
 				4AAE06CA1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-180.gpx in Resources */,
 				4AAE06D71A14F309003BA4D6 /* Фонтан-45.gpx in Resources */,
+				4AAE083E1A152E99003BA4D6 /* Icon-76.png in Resources */,
+				4AAE084C1A152F42003BA4D6 /* InfoPlist.strings in Resources */,
+				4AAE08491A152E99003BA4D6 /* Icon@2x.png in Resources */,
+				4AAE08471A152E99003BA4D6 /* Icon-Small@3x.png in Resources */,
+				4AAE083F1A152E99003BA4D6 /* Icon-76@2x.png in Resources */,
+				4AAE083A1A152E99003BA4D6 /* Icon-60@2x.png in Resources */,
 				4AAE06C21A14F309003BA4D6 /* Stadium Start-225.gpx in Resources */,
+				4AAE08451A152E99003BA4D6 /* Icon-Small.png in Resources */,
 				4AAE06C31A14F309003BA4D6 /* Stadium Start-270.gpx in Resources */,
 				4AAE06C91A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-135.gpx in Resources */,
 				4AAE06CF1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-90.gpx in Resources */,
 				4AAE06C61A14F309003BA4D6 /* Stadium Start-90.gpx in Resources */,
+				4AAE084A1A152E99003BA4D6 /* iTunesArtwork@2x.png in Resources */,
 				4AAE06D21A14F309003BA4D6 /* Фонтан-135.gpx in Resources */,
 				4AAE06DC1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-180.gpx in Resources */,
 				4AAE08231A14F95B003BA4D6 /* GoogleMaps.bundle in Resources */,
+				4AAE083D1A152E99003BA4D6 /* Icon-72@2x.png in Resources */,
 				4AAE06D41A14F309003BA4D6 /* Фонтан-225.gpx in Resources */,
+				4AAE08431A152E99003BA4D6 /* Icon-Small-50.png in Resources */,
 				4AAE06D61A14F309003BA4D6 /* Фонтан-315.gpx in Resources */,
 				4AAE06CC1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-270.gpx in Resources */,
 				4AAE06D81A14F309003BA4D6 /* Фонтан-90.gpx in Resources */,
+				4AAE08421A152E99003BA4D6 /* Icon-Small-40@3x.png in Resources */,
 				4AAE06DB1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-135.gpx in Resources */,
 				4AAE06E01A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-45.gpx in Resources */,
 				4AAE06C41A14F309003BA4D6 /* Stadium Start-315.gpx in Resources */,
 				4AAE06CB1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-225.gpx in Resources */,
 				4AAE06BF1A14F309003BA4D6 /* Stadium Start-0.gpx in Resources */,
 				4AAE06C81A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-0.gpx in Resources */,
+				4AAE08411A152E99003BA4D6 /* Icon-Small-40@2x.png in Resources */,
 				4A1A57921A0CC111002E875C /* Images.xcassets in Resources */,
+				4AAE08251A1523CA003BA4D6 /* ingress_logo_pirate_512px.png in Resources */,
 				4AAE06D01A14F309003BA4D6 /* Маршала Рыбалко Павла Улица.gpx in Resources */,
+				4AAE08391A152E99003BA4D6 /* Icon-60.png in Resources */,
 				4AAE06E11A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-90.gpx in Resources */,
 				4AAE06CE1A14F309003BA4D6 /* Маршала Рыбалко Павла Улица-45.gpx in Resources */,
 				4AAE06D31A14F309003BA4D6 /* Фонтан-180.gpx in Resources */,
 				4AAE06DE1A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері-270.gpx in Resources */,
 				4AAE06E21A14F309003BA4D6 /* Храм Почаївської Ікони Божої Матері.gpx in Resources */,
+				4AAE08481A152E99003BA4D6 /* Icon.png in Resources */,
 				4AAE06D91A14F309003BA4D6 /* Фонтан.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
