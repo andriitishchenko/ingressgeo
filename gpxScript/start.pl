@@ -57,14 +57,20 @@ $distanceMetres = 40;
 # die "terminate";
 print "############################################\n";
 
-my $key = undef;
+use I18N::Langinfo qw(langinfo CODESET);
+    my $codeset = langinfo(CODESET);
+use Encode qw(decode);
+    @ARGV = map { decode $codeset, $_ } @ARGV;
 
+
+my $key = undef;
+my $filter = undef;
 foreach my $arg (@ARGV) {
 
-    if ( $key && ($arg  ~~ ['-c', '-r']) ) {
-        die "Invalid arguments\n -c <lat,long>\n -r <radius in meters>\n";
+    if ( $key && ($arg  ~~ ['-c', '-r', '-f']) ) {
+        die "Invalid arguments\n -c <lat,long>\n -r <radius in meters>\n  -f <filter>\n";
     } 
-    elsif ( !$key && !($arg  ~~ ['-c', '-r']) ) {
+    elsif ( !$key && !($arg  ~~ ['-c', '-r', '-f']) ) {
         die "Undefined argument:\n $arg";
     }
 
@@ -83,6 +89,10 @@ foreach my $arg (@ARGV) {
       $key = undef;
       $allowRadius = $param;
     }
+    elsif ($key && $key eq '-f') {
+      $filter = lc($arg);
+      $key = undef;
+    }
 
     if ($arg eq '-c') {
       $key = "-c";
@@ -90,12 +100,15 @@ foreach my $arg (@ARGV) {
     elsif ($arg eq '-r') {
       $key = "-r";
     }
+    elsif ($arg eq '-f') {
+      $key = "-f";
+    }
 }
 
+# print $filter;
+# die;
 
 unlink glob "./gpx/*.*";
-
-
 
 $json = JSON->new->allow_nonref;
 my $file = 'out.txt';
@@ -112,6 +125,10 @@ my $a = sin( deg2rad($lat - $myLocationLAT)*0.5) ** 2;
 my $b = sin( deg2rad($long - $myLocationLONG)*0.5) ** 2;
 my $h = $a + cos(deg2rad($lat)) * cos(deg2rad($myLocationLAT)) * $b;
 my $theta = 2 * asin(sqrt($h)) * 6372797.560856; 
+
+if ($filter && (index(lc($title), $filter) < 0)) {
+  next;
+}
 
 if ($theta > $allowRadius) {
 	next;
