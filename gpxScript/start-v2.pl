@@ -1,19 +1,39 @@
 #!/usr/bin/perl
 
+# perl -MCPAN -e shell
+# install Encode::Escape;
+
 #generate file
-#grep -o -E '({"l([^}]*("type":"portal")[^}]*)})' testIN.txt > out.txt
+
+#grep -o -E '\[("p")[^\]]*\](.*?)\]' testIN.txt > out.txt
+#grep -o -E '(\["p"[^]]*](.*?)])' inl2.txt > outl2.txt
 
 #test 5 records
-#grep -o -E '({"l([^}]*("type":"portal")[^}]*)})' testIN.txt | head -n5 | grep .  > out.txt
+#grep -o -E '(\["p"[^]]*](.*?)])' inl2.txt | head -n5 | grep .  > out.txt
+
+
+use lib '/opt/local/lib/perl5/site_perl/5.16.1';
 use utf8;
 use Math::Trig;
 # use strict;
 # use warnings;
 use JSON;
+
+# use Unicode::Escape;
+# use Encode::Escape;
+# use Encode::Escape::Unicode;
+
+# use URI::Escape;
+use Encode qw( decode );
+# use URI::Escape;
+
 no warnings 'experimental::smartmatch';
 
-# use Data::Dumper;
-binmode(STDOUT,':utf8');
+use Data::Dumper;
+# binmode(STDOUT,':utf8');
+
+binmode STDIN, ":encoding(UTF-8)";
+binmode STDOUT, ":encoding(utf8)";
 
 sub createGPX(@);
 
@@ -30,7 +50,7 @@ $myLocationLONG = 30.478263;
 # $myLocationLAT = 50.452441;
 # $myLocationLONG = 30.479698;
 
-$allowRadius = 500; #meters
+$allowRadius = 50000; #meters
 ############################
 
 $radiusEarthKilometres=6372797.560856;
@@ -111,15 +131,40 @@ foreach my $arg (@ARGV) {
 unlink glob "./gpx/*.*";
 
 $json = JSON->new->allow_nonref;
-my $file = 'out.txt';
+my $file = 'outl2.txt';
 open my $info, $file or die "Could not open $file: $!";
 
 while( my $line = <$info>)  {   
-    $json_item = $json->decode($line);
-    $lat = $json_item->{"latE6"} / 1000000;
-    $long = $json_item->{"lngE6"} / 1000000;
-    $title = $json_item->{"title"};
-    $title =~s/[^\wа-я\s]+/_/ig;
+
+
+    my $str = "{\"a\":$line}";
+    $test= $json->decode($str);
+
+    # print $test->{"a"}[2] ;
+    # @elements  = $test->{"a"};
+    $lat = $test->{"a"}[2] / 1000000;
+    $long = $test->{"a"}[3] / 1000000;
+    my $str = $test->{"a"}[8];
+    # $str =~s/[,]//ig;
+    $title = $str;
+
+    # $title = $json->decode($str);
+
+
+    
+    
+    # $title = $json->decode($elements[8]);
+
+    # $json_item = $json->decode($line);
+    # Dumper($json_item[0]);
+    # print $json_item[3];
+    # $lat = $json_item[2] / 1000000;
+    # $long = $json_item[3] / 1000000;
+    # $title = $json_item[8];
+ 
+    $title =~s/[^\w\dа-я\s]+/_/ig;
+    # print $title, $lat , $long;
+    # die;
 	
 my $a = sin( deg2rad($lat - $myLocationLAT)*0.5) ** 2;
 my $b = sin( deg2rad($long - $myLocationLONG)*0.5) ** 2;
